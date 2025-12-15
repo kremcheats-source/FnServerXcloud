@@ -1,0 +1,18 @@
+{
+  "name": "kremcheats-server",
+  "version": "2.1.0",
+  "description": "KremCheats Detection Server",
+  "main": "server-render.js",
+  "scripts": {
+    "start": "node server-render.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs-node": "^4.17.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
