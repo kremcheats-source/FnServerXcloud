@@ -2,9 +2,9 @@
   "name": "kremcheats-server",
   "version": "2.1.0",
   "description": "KremCheats Detection Server",
-  "main": "server-render.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server-render.js"
+    "start": "node server.js"
   },
   "engines": {
     "node": ">=18.0.0"
